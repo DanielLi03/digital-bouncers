@@ -15,7 +15,7 @@ What are guardrails and what's the problem
 
 ### LangGraph Persistence Layer
 
-### Example Prompts
+## Example Prompts
 
 ### Input Guardrail
 
