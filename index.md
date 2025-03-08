@@ -1,22 +1,15 @@
 # Digital Bouncers
 
 ## Introduction
-In “The great acceleration: CIO perspectives on generative AI” by the MIT Tech Review and
-Databricks, Schaefer—Chief Health Informatics Officer at Kansas City VA Medical Center—
-stated “trust” as the Key to effectively adopting generative AI. The healthcare industry is
-a great case study for involving a multitude of high-stake processes and parties, such as
-the use of machine learning models to predict protein structures, assist drug discovery,
-and track the progression of outbreaks, to chatbots helping front-line staff by transcribing
-medical notes and answering patients’ questions. The same understanding of such broad
-applications can be applied to other areas, including a smart home chatbot, where privacy
-concerns are prominent as users decide who gets to use their data, which data, and for what
-purposes. As more rooms and appliances generate data in homes, the “democratization”
-of data control and ownership is poised to gain traction to build “trust” in generative AI.
-The reverse also applies as developers aim to protect the integrity of AI systems by mod-
-erating which user inquiries to accept or reject. Meeting these expectations requires the
-effective and ethical implementation of conversational AI to protect data and systems in-
-tegrity, safety, and privacy for the collective benefits of those affected most by generative
-AI.
+As conversational AI products become integrated 
+into daily life, ensuring their behavior aligns with
+intended purposes is crucial, especially in smart
+homes where systems interact with data and can
+influence physical home environments. Residents
+should be able to easily understand their data
+through user-friendly applications, but effective
+guardrails for ensuring accuracy and smooth
+workflows are still lacking.
 
 ### What are guardrails?
 Explain what are guardrails
