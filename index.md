@@ -26,7 +26,7 @@ guardrails for ensuring accuracy and smooth
 workflows are still lacking.
 
 ### What are guardrails?
-So what are guardrails?
+So what are guardrails? LLM guardrails are mechanisms that ensure large language models (LLMs) operate within safe, ethical, and intended boundaries. They help prevent harmful outputs, enforce compliance with policies, and guide model behavior. Guardrails can include content filtering, user intent detection, bias mitigation, security measures, and context constraints to improve reliability and safety in AI interactions.
 
 
 ## Our Solution
