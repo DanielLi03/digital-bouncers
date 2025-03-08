@@ -1,20 +1,6 @@
 # Digital Bouncers
 
 ## Introduction
-As conversational AI products become integrated 
-into daily life, ensuring their behavior aligns with
-intended purposes is crucial, especially in smart
-homes where systems interact with data and can
-influence physical home environments. Residents
-should be able to easily understand their data
-through user-friendly applications, but effective
-guardrails for ensuring accuracy and smooth
-workflows are still lacking.
-
-### What are guardrails?
-Explain what are guardrails
-
-### Background and Oppurtunity
 Many prominent works have been done to document, understand, and disseminate the risks
 and threats of generative AI, notably is the OWASP Top 10 security risks for large language
 model (LLM) applications, which includes prompt injection, insecure output handling, sen-
@@ -29,7 +15,25 @@ Civ. Code § 1798.100 (d). It is critical for current and future developers of A
 take leadership and proactive steps in implementing best data-handling practices to inspire
 a future of safe and secure digital interactions with “digital bouncers”.
 
+As conversational AI products become integrated 
+into daily life, ensuring their behavior aligns with
+intended purposes is crucial, especially in smart
+homes where systems interact with data and can
+influence physical home environments. Residents
+should be able to easily understand their data
+through user-friendly applications, but effective
+guardrails for ensuring accuracy and smooth
+workflows are still lacking.
+
+### What are guardrails?
+So what are guardrails?
+
+
 ## Our Solution
+Digital Bouncers aims to address these concerns with an LLM-powered assistant for smart homes – a trustworthy chatbot homeowners can rely on to ask questions about their energy use. ​
+
+By integrating guardrails into agentic workflows with dynamic cloud storage, our tool facilitates secure AI interactions using guardrails to address common problems in LLM applications at the input, intermediary, and output level.​
+
 Digital Bouncers aims to address these concerns with an LLM-based resource-use moni-
 toring chat application with AI risk-mitigation for physical assets – a trustworthy assistant
 3
@@ -85,4 +89,4 @@ This section evaluates the performance of our chatbot on different inputs, as we
 Talk about the results of our chat bot on given tests
 
 ## Additional Links
-Section to check out our actual source code, and report. (maybe move it to the top of the page)
+If you want to check out our actual codebase, be sure to click the link below!
