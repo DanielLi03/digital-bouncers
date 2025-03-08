@@ -36,7 +36,8 @@ Below we attach the results of our chat bot after testing both the general funct
 
 ![guardrail results](images/guardrail_results.png)
 
-Based on the results, we could see that our guardrails provide a somewhat decent level of protection. In fact, for the more concrete objective parameters, we could see that the guardrails protect us quite well against that.
+Based on the results, we could see that chatbot assistant, while somewhat accurate, can still use a lot of work. Perhaps with future finetuning, we'll be able to boost our accuracy. In terms of our guardrails, we could see that they provide a decent level of protection and accuracy. In fact, for the more concrete objective parameters (such as one question only guardrail), we could see that the guardrail layers actually perform quite well. But for more subjective topical guardrails, we can see that our guardrails are having a little difficulty against that. In any case, our guardrails seem to work well for most general clear cut cases.
 
 ## Additional Links
-If you want to check out our actual codebase, be sure to click the link below!
+If you want to check out our actual codebase, be sure to click this [link](https://github.com/pndang/digital-bouncers)
+!
