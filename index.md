@@ -9,7 +9,9 @@ So what are guardrails? LLM guardrails are mechanisms that ensure large language
 ## Our Solution
 Introducing Digital Bouncers – an LLM-powered assistant for smart homes, providing homeowners with a reliable chatbot to answer energy-related questions.
 
-Our tool integrates guardrails into agentic workflows with dynamic cloud storage, ensuring secure AI interactions. These guardrails mitigate risks in LLM applications at the input, intermediary, and output levels.
+Our tool integrates guardrails into agentic workflows with dynamic cloud storage, ensuring secure AI interactions. These guardrails mitigate risks in LLM applications at the input, intermediary, and output levels. Below is a flowchart of the general structure of our app.
+
+![flowchart](images/flowchart.png)
 
 #### Key Features
 Text2SQL Pipeline - Uses LangChain agents to query datasets for questions that can be answered via SQL.
