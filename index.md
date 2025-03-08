@@ -19,26 +19,19 @@ Retrieval-Augmented Generation (RAG) Framework - Handles general queries beyond 
 Persistence Layer - responsible for storing and managing data by previous requests.
 
 #### Guardrails for Security & Accuracy
-Input Moderation – Filters out harmful, off-topic, or inappropriate prompts.
+Input Moderation – Filters out harmful, off-topic, or inappropriate prompts. For instance, our input guardrail would protect against prompts like "Do energy type pokemons exist?", while allowing prompts such as "Which part of the house consumed the most energy in August?". This input rail would also to check to ensure that the user is only asking one question (sort of a secondary function that we called one question guardrail).
 
-Intermediary Guardrail – Directs queries to either the Text2SQL pipeline or the RAG framework.
+Intermediary Guardrail – Directs queries to either the Text2SQL pipeline or the RAG framework. For instance, questions that could be answered using SQL such as "Which part of the house consumed the most energy in July?" would be directed to the SQL framework. Other more general questions such as "Give me some recommendation on refrigerators which consume less energy" would be directed to our RAG framework.
 
-RAG Check – Ensures logical consistency in generated responses.
+RAG Check – Ensures logical consistency in generated responses. This is just a general sanity check for the response outputted by the chatbot.
 
-Output Moderation – Blocks or rewrites responses to align with predefined guidelines and performs syntax validation.
-
-## Example Prompts
-This section evaluates the performance of our chatbot on different inputs, as well as the performance of our implemented guardrails
-
-### Input Guardrail
-
-### Text2SQL Guardrail
-
-### RAG Evaluation Guardrail
-
-### Output Guardrail
+Output Moderation – Blocks or rewrites responses to align with predefined guidelines and performs syntax validation. 
 
 ## Results
+Here we attach the results of our chat bot after testing.
+
+
+
 Based on the results, we could see that our guardrails provide a somewhat decent level of protection. In fact, for the more concrete objective parameters, we could see that the guardrails protect us quite well against that.
 
 ## Additional Links
