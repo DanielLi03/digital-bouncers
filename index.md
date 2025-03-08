@@ -13,13 +13,18 @@ Our tool integrates guardrails into agentic workflows with dynamic cloud storage
 
 #### Key Features
 Text2SQL Pipeline - Uses LangChain agents to query datasets for questions that can be answered via SQL.
+
 Retrieval-Augmented Generation (RAG) Framework - Handles general queries beyond SQL capabilities.
+
 Persistence Layer - responsible for storing and managing data by previous requests.
 
 #### Guardrails for Security & Accuracy
 Input Moderation – Filters out harmful, off-topic, or inappropriate prompts.
+
 Intermediary Guardrail – Directs queries to either the Text2SQL pipeline or the RAG framework.
+
 RAG Check – Ensures logical consistency in generated responses.
+
 Output Moderation – Blocks or rewrites responses to align with predefined guidelines and performs syntax validation.
 
 ## Example Prompts
