@@ -30,9 +30,11 @@ RAG Check – Ensures logical consistency in generated responses. This is just a
 Output Moderation – Blocks or rewrites responses to align with predefined guidelines and performs syntax validation. 
 
 ## Results
-Here we attach the results of our chat bot after testing.
+Below we attach the results of our chat bot after testing both the general functionality as well as the testable guardrails.
 
+![chatbot results](images/chatbot_results.png)
 
+![guardrail results](images/guardrail_results.png)
 
 Based on the results, we could see that our guardrails provide a somewhat decent level of protection. In fact, for the more concrete objective parameters, we could see that the guardrails protect us quite well against that.
 
