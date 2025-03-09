@@ -20,7 +20,7 @@ Retrieval-Augmented Generation (RAG) Framework - Handles general queries beyond 
 
 Persistence Layer - responsible for storing and managing data by previous requests.
 
-#### Guardrails for Security & Accuracy
+#### Guardrails
 Input Moderation – Filters out harmful, off-topic, or inappropriate prompts. For instance, our input guardrail would protect against prompts like "Do energy type pokemons exist?", while allowing prompts such as "Which part of the house consumed the most energy in August?". This input rail would also to check to ensure that the user is only asking one question (sort of a secondary function that we called one question guardrail).
 
 Intermediary Guardrail – Directs queries to either the Text2SQL pipeline or the RAG framework. For instance, questions that could be answered using SQL such as "Which part of the house consumed the most energy in July?" would be directed to the SQL framework. Other more general questions such as "Give me some recommendation on refrigerators which consume less energy" would be directed to our RAG framework.
