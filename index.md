@@ -41,7 +41,7 @@ Our tool integrates guardrails into agentic workflows with dynamic cloud storage
 ### Key Features
 
 
-Text2SQL Pipeline - Uses LangChain agents to query datasets for questions that can be answered via SQL. Below we have a diagram that better showcases this.
+Text2SQL Pipeline - Uses LangChain agents to query datasets for questions that can be answered via SQL. Below we have an example prompt that wqould fall under the Text2SQL Pipeline.
 
 <br>
 <p align="center">
