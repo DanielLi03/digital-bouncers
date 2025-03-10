@@ -1,12 +1,5 @@
 # Digital Bouncers
 
-<style>
-h1 {
-    display: none; /* Hide the main title */
-}
-</style>
-
-
 <br>
 
 ## Introduction
