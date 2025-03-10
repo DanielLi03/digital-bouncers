@@ -40,7 +40,7 @@ Output Moderation – Blocks or rewrites responses to align with predefined guid
 Below we attach the results of our chat bot after testing both the general functionality as well as the testable guardrails.
 
 <p align="center">
-<img src="images/chatbot_results.png" alt="application flowchart" width="75%">
+<img src="images/chatbot_results.png" alt="application flowchart" width="55%">
 </p>
 
 <p align="center">
