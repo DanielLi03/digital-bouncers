@@ -8,7 +8,6 @@
 In The Great Acceleration: CIO Perspectives on Generative AI by MIT Tech Review and Databricks, Schaefer, Chief Health Informatics Officer at Kansas City VA Medical Center, emphasizes "trust" as key to adopting generative AI effectively. Healthcare exemplifies this, using AI for tasks like predicting protein structures, aiding drug discovery, tracking outbreaks, and assisting staff with chatbots. This broad applicability extends to smart home AI, where privacy is critical as users control their data. As homes generate more data, ensuring user control will be essential to building trust. Likewise, developers must safeguard AI integrity by moderating user interactions. Ethical AI implementation is crucial to protecting data, safety, and privacy for all affected.
 
 <br>
-<br>
 
 ### What are guardrails?
 
@@ -16,14 +15,12 @@ In The Great Acceleration: CIO Perspectives on Generative AI by MIT Tech Review 
 So what are guardrails? LLM guardrails are mechanisms that ensure large language models (LLMs) operate within safe, ethical, and intended boundaries. They help prevent harmful outputs, enforce compliance with policies, and guide model behavior. Guardrails can include content filtering, user intent detection, bias mitigation, security measures, and context constraints to improve reliability and safety in AI interactions.
 
 <br>
-<br>
 
 ## Our Data
 
 
 Our dataset is ~500k row dataset which contains 1 year of energy readings by minute for appliances in a single household​. There is also a 2-page utility bill explanation document to provide context for bill explanation inquiries​. Additionally, we personally curated a test set comprised of 35 prompts for evaluating guardrail and chatbot accuracy​.
 
-<br>
 <br>​
 
 ## Our Solution
@@ -40,7 +37,6 @@ Our tool integrates guardrails into agentic workflows with dynamic cloud storage
 </p>
 
 <br>
-<br>
 
 ### Key Features
 
@@ -51,7 +47,6 @@ Retrieval-Augmented Generation (RAG) Framework - Handles general queries beyond 
 
 Persistence Layer - responsible for storing and managing data by previous requests.
 
-<br>
 <br>
 
 ### Guardrails
@@ -65,7 +60,6 @@ RAG Check – Ensures logical consistency in generated responses. This is just a
 
 Output Moderation – Blocks or rewrites responses to align with predefined guidelines and performs syntax validation. 
 
-<br>
 <br>
 
 ## Results
@@ -89,7 +83,6 @@ Below we attach the results of our chat bot after testing both the general funct
 
 Based on the results, we could see that chatbot assistant, while somewhat accurate, can still use a lot of work. Perhaps with future finetuning, we'll be able to boost our accuracy. In terms of our guardrails, we could see that they provide a decent level of protection and accuracy. In fact, for the more concrete objective parameters (such as one question only guardrail), we could see that the guardrail layers actually perform quite well. But for more subjective topical guardrails, we can see that our guardrails are having a little difficulty against that. In any case, our guardrails seem to work well for most general clear cut cases.
 
-<br>
 <br>
 
 ## Additional Links
