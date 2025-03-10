@@ -14,7 +14,7 @@ Introducing Digital Bouncers – an LLM-powered assistant for smart homes, provi
 Our tool integrates guardrails into agentic workflows with dynamic cloud storage, ensuring secure AI interactions. These guardrails mitigate risks in LLM applications at the input, intermediary, and output levels. Below is a flowchart of the general structure of our app.
 
 <p align="center">
-<img src="flowchart.png" alt="application flowchart" width="300">
+<img src="images/flowchart.png" alt="application flowchart" width="300">
 </p>
 
 ### Key Features
@@ -40,11 +40,11 @@ Output Moderation – Blocks or rewrites responses to align with predefined guid
 Below we attach the results of our chat bot after testing both the general functionality as well as the testable guardrails.
 
 <p align="center">
-<img src="chatbot_result.png" alt="application flowchart" width="300">
+<img src="images/chatbot_results.png" alt="application flowchart" width="300">
 </p>
 
 <p align="center">
-<img src="guardrail_result.png" alt="application flowchart" width="300">
+<img src="images/guardrail_results.png" alt="application flowchart" width="300">
 </p>
 
 
