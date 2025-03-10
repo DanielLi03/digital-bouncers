@@ -3,7 +3,7 @@
 <br>
 
 ## Introduction
-<br>
+
 
 In The Great Acceleration: CIO Perspectives on Generative AI by MIT Tech Review and Databricks, Schaefer, Chief Health Informatics Officer at Kansas City VA Medical Center, emphasizes "trust" as key to adopting generative AI effectively. Healthcare exemplifies this, using AI for tasks like predicting protein structures, aiding drug discovery, tracking outbreaks, and assisting staff with chatbots. This broad applicability extends to smart home AI, where privacy is critical as users control their data. As homes generate more data, ensuring user control will be essential to building trust. Likewise, developers must safeguard AI integrity by moderating user interactions. Ethical AI implementation is crucial to protecting data, safety, and privacy for all affected.
 
@@ -11,7 +11,7 @@ In The Great Acceleration: CIO Perspectives on Generative AI by MIT Tech Review 
 <br>
 
 ### What are guardrails?
-<br>
+
 
 So what are guardrails? LLM guardrails are mechanisms that ensure large language models (LLMs) operate within safe, ethical, and intended boundaries. They help prevent harmful outputs, enforce compliance with policies, and guide model behavior. Guardrails can include content filtering, user intent detection, bias mitigation, security measures, and context constraints to improve reliability and safety in AI interactions.
 
@@ -19,7 +19,7 @@ So what are guardrails? LLM guardrails are mechanisms that ensure large language
 <br>
 
 ## Our Solution
-<br>
+
 
 Introducing Digital Bouncers – an LLM-powered assistant for smart homes, providing homeowners with a reliable chatbot to answer energy-related questions.
 
@@ -35,7 +35,7 @@ Our tool integrates guardrails into agentic workflows with dynamic cloud storage
 <br>
 
 ### Key Features
-<br>
+
 
 Text2SQL Pipeline - Uses LangChain agents to query datasets for questions that can be answered via SQL.
 
@@ -47,7 +47,7 @@ Persistence Layer - responsible for storing and managing data by previous reques
 <br>
 
 ### Guardrails
-<br>
+
 
 Input Moderation – Filters out harmful, off-topic, or inappropriate prompts. For instance, our input guardrail would protect against prompts like "Do energy type pokemons exist?", while allowing prompts such as "Which part of the house consumed the most energy in August?". This input rail would also to check to ensure that the user is only asking one question (sort of a secondary function that we called one question guardrail).
 
@@ -61,7 +61,7 @@ Output Moderation – Blocks or rewrites responses to align with predefined guid
 <br>
 
 ## Results
-<br>
+
 
 Below we attach the results of our chat bot after testing both the general functionality as well as the testable guardrails.
 
@@ -85,7 +85,7 @@ Based on the results, we could see that chatbot assistant, while somewhat accura
 <br>
 
 ## Additional Links
-<br>
+
 
 If you want to check out our actual codebase, be sure to click this [link](https://github.com/pndang/digital-bouncers)
 !
