@@ -102,7 +102,5 @@ For our next step, we would allow users to ask about real time data in addition 
 If you want to check out our actual codebase, be sure to click this [link](https://github.com/pndang/digital-bouncers)
 !
 
-<br>
-
 If you want to check out our report, be sure to click this [link](https://drive.google.com/file/d/184Eizk4GZ-BtX_uqyhru3VBHOeXnGwBw/view?usp=drive_link)
 !
