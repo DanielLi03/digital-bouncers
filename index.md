@@ -1,3 +1,9 @@
+<style>
+h1 {
+    display: none; /* Hide the main title */
+}
+</style>
+
 # Digital Bouncers
 
 <br>
@@ -17,6 +23,14 @@ So what are guardrails? LLM guardrails are mechanisms that ensure large language
 
 <br>
 <br>
+
+## Our Data
+
+
+Our dataset is ~500k row dataset which contains 1 year of energy readings by minute for appliances in a single household​. There is also a 2-page utility bill explanation document to provide context for bill explanation inquiries​. Additionally, we personally curated a test set comprised of 35 prompts for evaluating guardrail and chatbot accuracy​.
+
+<br>
+<br>​
 
 ## Our Solution
 
