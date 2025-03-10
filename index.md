@@ -1,7 +1,6 @@
 # Digital Bouncers
 
 <br>
-<br>
 
 ## Introduction
 
