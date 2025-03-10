@@ -1,11 +1,11 @@
+# Digital Bouncers
+
+
 <style>
     header h1 {
         display: none;
     }
 </style>
-
-# Digital Bouncers
-
 <br>
 
 ## Introduction
