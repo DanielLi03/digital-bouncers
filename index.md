@@ -27,6 +27,8 @@ Introducing Digital Bouncers – an LLM-powered assistant for smart homes, provi
 
 Our tool integrates guardrails into agentic workflows with dynamic cloud storage, ensuring secure AI interactions. These guardrails mitigate risks in LLM applications at the input, intermediary, and output levels. Below is a flowchart of the general structure of our app.
 
+<br>
+
 <p align="center">
 <img src="images/flowchart.png" alt="application flowchart" width="75%">
 </p>
