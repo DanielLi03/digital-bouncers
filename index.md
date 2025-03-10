@@ -49,9 +49,9 @@ Text2SQL Pipeline - Uses LangChain agents to query datasets for questions that c
 </p>
 <br>
 
-Retrieval-Augmented Generation (RAG) Framework - Handles general queries beyond SQL capabilities. RAG is used to ensure that our chatbot’s answers about utility bills or energy usage come from a trusted knowledge source by relying on reference texts.
+Retrieval-Augmented Generation (RAG) Framework - Obviously, not all questions can be answered using SQL. As such, RAG handles general queries beyond SQL capabilities. RAG is used to ensure that our chatbot’s answers about utility bills or energy usage come from a trusted knowledge source by relying on reference texts.
 
-Persistence Layer - Responsible for storing and managing data by previous requests. This is a layer present in many chatbot assistance that allows for smooth conversation from request to request in one session. 
+Persistence Layer - Responsible for storing and managing data by previous requests. This is a layer present in many chatbot assistance that allows for smooth conversation from one request to the other in one session. 
 
 <br>
 
