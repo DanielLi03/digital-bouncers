@@ -41,11 +41,17 @@ Our tool integrates guardrails into agentic workflows with dynamic cloud storage
 ### Key Features
 
 
-Text2SQL Pipeline - Uses LangChain agents to query datasets for questions that can be answered via SQL.
+Text2SQL Pipeline - Uses LangChain agents to query datasets for questions that can be answered via SQL. Below we have a diagram that better showcases this.
 
-Retrieval-Augmented Generation (RAG) Framework - Handles general queries beyond SQL capabilities.
+<br>
+<p align="center">
+<img src="images/text2sql.png" alt="application flowchart" width="55%">
+</p>
+<br>
 
-Persistence Layer - responsible for storing and managing data by previous requests.
+Retrieval-Augmented Generation (RAG) Framework - Handles general queries beyond SQL capabilities. RAG is used to ensure that our chatbot’s answers about utility bills or energy usage come from a trusted knowledge source by relying on reference texts.
+
+Persistence Layer - Responsible for storing and managing data by previous requests. This is a layer present in many chatbot assistance that allows for smooth conversation from request to request in one session. 
 
 <br>
 
