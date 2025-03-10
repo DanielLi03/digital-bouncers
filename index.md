@@ -1,11 +1,5 @@
 # Digital Bouncers
 
-
-<style>
-    header h1 {
-        display: none;
-    }
-</style>
 <br>
 
 ## Introduction
@@ -90,6 +84,11 @@ Below we attach the results of our chat bot after testing both the general funct
 Based on the results, we could see that chatbot assistant, while somewhat accurate, can still use a lot of work. Perhaps with future finetuning, we'll be able to boost our accuracy. In terms of our guardrails, we could see that they provide a decent level of protection and accuracy. In fact, for the more concrete objective parameters (such as one question only guardrail), we could see that the guardrail layers actually perform quite well. But for more subjective topical guardrails, we can see that our guardrails are having a little difficulty against that. In any case, our guardrails seem to work well for most general clear cut cases.
 
 <br>
+
+## Next Steps
+
+
+For our next step, we would allow users to ask about real time data in addition to historical data​.
 
 ## Additional Links
 
